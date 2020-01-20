@@ -1,2 +1,3 @@
 # jdformat
-Converter for Japanese date format
+Python library for working with Japanese date formats.
+
