@@ -95,3 +95,11 @@ class Ansei(Era):
     endyear: str = '1861'
     kanji: str = '安政'
     romaji: str = 'ansei'
+
+
+@dataclass
+class (Era):
+    startyear: str = '1912'
+    endyear: str = '1926'
+    kanji: str = '大正'
+    romaji: str = 'taishou'
