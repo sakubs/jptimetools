@@ -90,8 +90,8 @@ class Mannen(Era):
 
 
 @dataclass
-class Taisho(Era):
-    startyear: str = '1912'
-    endyear: str = '1926'
-    kanji: str = '大正'
-    romaji: str = 'taishou'
+class Ansei(Era):
+    startyear: str = '1854'
+    endyear: str = '1861'
+    kanji: str = '安政'
+    romaji: str = 'ansei'
