@@ -59,9 +59,39 @@ class Meiji(Era):
 
 @dataclass
 class Keiou(Era):
-    startyear: str = '1864'
-    endyear: str = '1865'
+    startyear: str = '1865'
+    endyear: str = '1868'
     kanji: str = '慶応'
     romaji: str = 'keiou'
 
 
+@dataclass
+class Genji(Era):
+    startyear: str = '1864'
+    endyear: str = '1865'
+    kanji: str = '元治'
+    romaji: str = 'genji'
+
+
+@dataclass
+class Bunkyuu(Era):
+    startyear: str = '1861'
+    endyear: str = '1864'
+    kanji: str = '文久'
+    romaji: str = 'bunkyuu'
+
+
+@dataclass
+class Mannen(Era):
+    startyear: str = '1860'
+    endyear: str = '1861'
+    kanji: str = '万延'
+    romaji: str = 'manen'
+
+
+@dataclass
+class Taisho(Era):
+    startyear: str = '1912'
+    endyear: str = '1926'
+    kanji: str = '大正'
+    romaji: str = 'taishou'
