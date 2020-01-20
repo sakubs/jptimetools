@@ -1,11 +1,11 @@
 from setuptools import setup
 
-setup(name='jdformat', 
+setup(name='jptimetools', 
     version='0.1',
     description='Work with Japanese dates in Python',
-    url='https://github.com/sakubs/jdformat', 
+    url='https://github.com/sakubs/jptimetools', 
     author='Brian Sakurada', 
     author_email='sakuradabs@gmail.com', 
     license='MIT', 
-    packages=['jdformat'], 
+    packages=['jptimetools'], 
 )
