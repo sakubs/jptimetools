@@ -47,3 +47,21 @@ class Taisho(Era):
     endyear: str = '1926'
     kanji: str = '大正'
     romaji: str = 'taishou'
+
+
+@dataclass
+class Meiji(Era):
+    startyear: str = '1868'
+    endyear: str = '1912'
+    kanji: str = '明治'
+    romaji: str = 'meiji'
+
+
+@dataclass
+class Keiou(Era):
+    startyear: str = '1864'
+    endyear: str = '1865'
+    kanji: str = '慶応'
+    romaji: str = 'keiou'
+
+
